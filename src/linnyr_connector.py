@@ -33,7 +33,8 @@ class BaseLinnyRModel(FileModel):
     def run_experiment(self, experiment):
         
         # create a csv input file readable by Linny-R from the experiment dict
-        with open(self.experiment_file, 'w', newline = '') as fh:
+        experiments_file = os.path.join(self.working_directory, self.experiment_file)
+        with open(experiments_file, 'w', newline = '') as fh:
             
             # define the csv writer
             w = csv.writer(fh, delimiter = ';')
@@ -87,7 +88,7 @@ class BaseLinnyRModel(FileModel):
             results[variable_name] = tuple(values)
 
         # delete the csv input file
-        # os.remove(f'exp.csv')
+        os.remove(experiments_file)
 
         # delete the output files (if things dont work out, have a look at the log file)
         os.remove(f'{modelfile}_exp.csv')
