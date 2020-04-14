@@ -1,20 +1,15 @@
 '''
-Created on Apr 10, 2020
+Created on Apr 14, 2020
 
-@author: jhkwakkel
+@authors: Rob Roos & Jan Kwakkel
 '''
-# import required stuff from the EMA Workbench
 
-import csv
-from itertools import zip_longest
-import subprocess, os
-
+# import required packages
+import subprocess, os, csv
 import numpy as np
-import pandas as pd
-
+from itertools import zip_longest
 from ema_workbench.em_framework.model import FileModel, SingleReplication
 from ema_workbench.util.ema_logging import method_logger
-
 
 # define a base class for interacting with Linny-R models
 class BaseLinnyRModel(FileModel):
@@ -22,11 +17,12 @@ class BaseLinnyRModel(FileModel):
     # create an instance of this class
     def __init__(self, name, wd=None, model_file=None):
         super().__init__(name, wd, model_file)
-        
-
+       
+        # define the experiment file of this object comming from the EMA Workbench
         self.experiment_file = 'exp.csv'
-        self.linnyr = os.path.join(os.path.abspath('./software'), 'lrc.exe')
         
+        # locate the Linny-R program in a map called 'software'
+        self.linnyr = os.path.join(os.path.abspath('./software'), 'lrc.exe')
         
     # define a function for running an experiment
     @method_logger(__name__)
@@ -48,16 +44,16 @@ class BaseLinnyRModel(FileModel):
             # write the transposed values list to the next rows (works for timeseries and accounts for empty cells)
             w.writerows([list(filter(None,i)) for i in zip_longest(*values)])
 
-        # execute Linny-R console using the experiment input file
         # define the file of the model object and strip off '.lnr' part so Linny-R can find it
         modelfile = os.path.join(self.working_directory, self.model_file)[:-4]
         
+        # execute Linny-R console using the experiment input file
         subprocess.call([self.linnyr, modelfile, self.experiment_file])
 
-        # read the csv output file from Linny-R and transpose it
-        
+        # define the csv output file from Linny-R
         outputfile = f'{modelfile}_exp.csv'
         
+        # read this output file and transpose it
         csv_reader = zip(*csv.reader(open(outputfile), delimiter=';'))
 
         # create empty dictionary for the results
@@ -97,7 +93,6 @@ class BaseLinnyRModel(FileModel):
 
         # return the results
         return results
-
 
 class LinnyRModel(SingleReplication, BaseLinnyRModel):
     pass
