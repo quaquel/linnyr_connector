@@ -6,7 +6,6 @@ Created on Apr 14, 2020
 
 # import required packages
 import subprocess, os, csv
-import numpy as np
 from itertools import zip_longest
 from ema_workbench.em_framework.model import FileModel, SingleReplication
 from ema_workbench.util.ema_logging import method_logger
