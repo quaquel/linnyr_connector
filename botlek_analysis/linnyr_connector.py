@@ -12,7 +12,7 @@ Created on Apr 15, 2020
 '''
 
 # import required packages
-import csv, subprocess, os
+import csv, subprocess, os, copy
 import pandas as pd
 from itertools import zip_longest
 from ema_workbench.em_framework.model import FileModel, SingleReplication
@@ -33,12 +33,14 @@ class BaseLinnyRModel(FileModel):
         # define the path of the Linny-R executable
         self.linnyr = os.path.join(os.path.abspath('./software'), 'lrc.exe')
         
+
     # define a function for running an experiment
     @method_logger(__name__)
     def run_experiment(self, experiment):
         
+        
         # create a csv input file readable by Linny-R from the experiment dict
-        with open(self.experiment_file, 'w', newline = '') as fh:
+        with open(self.experiment_file, 'w', newline ='') as fh:
             
             # define the csv writer
             w = csv.writer(fh, delimiter = ';')
@@ -53,16 +55,20 @@ class BaseLinnyRModel(FileModel):
             w.writerows(zip_longest(*values, fillvalue = ''))
             
         # define the file of the model object and strip off '.lnr' part so Linny-R can find it        
-        modelfile = os.path.abspath(self.model_file)[:-4]
+        modelfile = self.model_file[:-4]
 
         # execute Linny-R console using the experiment input file
+        curdir = os.getcwd()
+        
+        os.chdir(self.working_directory)
         subprocess.call([self.linnyr, modelfile, self.experiment_file])
+        os.chdir(curdir)
 
         # locate and define the output file
-        outputfile = f'{modelfile}_exp.csv'
+        outputfile = os.path.join(self.working_directory, f'{modelfile}_exp.csv')
         
         # read the data from the output file into a dataframe
-        data = pd.read_csv(outputfile, delimiter = ';', decimal=',')
+        data = pd.read_csv(outputfile, delimiter=';', decimal=',')
                          
         # create an empty dictionary for the results
         results = {}
@@ -79,12 +85,12 @@ class BaseLinnyRModel(FileModel):
                 results[i] = tuple(data[i])
                 
         # delete the csv input file
-        os.remove(self.experiment_file)
+        #os.remove(self.experiment_file)
 
         # delete the output files (if things dont work out, have a look at the log file)
-        os.remove(f'{modelfile}_exp.csv')
-        os.remove(f'{modelfile}_exp.lp')
-        os.remove(f'{modelfile}_exp.log')
+        #os.remove(f'{modelfile}_exp.csv')
+        #os.remove(f'{modelfile}_exp.lp')
+        #os.remove(f'{modelfile}_exp.log')
 
         # return the results
         return results
@@ -134,7 +140,9 @@ class LinnyRModel_Botlek(LinnyRModel):
     
     # define a function for running an experiment
     def run_experiment(self, experiment):
-            
+        
+        experiment = copy.deepcopy(experiment)
+        
         # modify the sampled experiment data accordingly
         for i in experiment.keys():
             if i in self.reference_time_series.keys():
