@@ -1,0 +1,1047 @@
+Linny-R model file: botlek_model
+Linny-R scenario file(s): exp.csv
+Linny-R options:
+Output formulas:
+- Use SP-A
+- Use SP-B
+- Dispatch e-boiler
+- CO2 emission
+- Blow-off 20 bar
+- H2 to market
+- SynGas to market
+- CF total
+- CF Air Liquide
+- CF Huntsman
+- CF Nouryon
+- CF Lyondell
+- CF Shin Etsu
+- Cogen to DA
+- Cogen to U
+- test actor attr
+Run started on: 4/16/2020 15:57:02
+Processing scenario file "exp.csv"
+(35042 lines read)
+20 variables in scenario file "exp.csv"
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (1 - 1)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.81948e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           111 iter.
+Relaxed solution       18.9994793496 after        154 iter is B&B base.
+
+Feasible solution      18.9994793496 after        154 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.9994793496 after        154 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 2.27374e-013
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 154, 18 (11.7%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.0 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 620 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.900E+01 (EUR 19949)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (2 - 2)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82771e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       18.8314283091 after        157 iter is B&B base.
+
+Feasible solution      18.8314283091 after        157 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.8314283091 after        157 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 157, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.883E+01 (EUR 19773)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (3 - 3)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.83593e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           111 iter.
+Relaxed solution       18.8511087073 after        159 iter is B&B base.
+
+Feasible solution      18.8511087073 after        159 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.8511087073 after        159 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 159, 18 (11.3%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 35.3 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 620 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.015 seconds,
+... 0.000 seconds in simplex solver, in total 0.015 seconds.
+Solution is optimal, objective = 1.885E+01 (EUR 19794)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (4 - 4)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82806e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           111 iter.
+Relaxed solution       18.8582360855 after        158 iter is B&B base.
+
+Feasible solution      18.8582360855 after        158 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.8582360855 after        158 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 2.27374e-013
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 158, 18 (11.4%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 35.0 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 620 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.886E+01 (EUR 19801)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (5 - 5)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.83592e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       18.8875116644 after        152 iter is B&B base.
+
+Feasible solution      18.8875116644 after        152 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.8875116644 after        152 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 152, 18 (11.8%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 33.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 610 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.889E+01 (EUR 19832)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (6 - 6)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82767e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.0664990799 after        157 iter is B&B base.
+
+Feasible solution      19.0664990799 after        157 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.0664990799 after        157 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 157, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.016 seconds in simplex solver, in total 0.016 seconds.
+Solution is optimal, objective = 1.907E+01 (EUR 20020)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (7 - 7)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82766e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.0799025422 after        157 iter is B&B base.
+
+Feasible solution      19.0799025422 after        157 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.0799025422 after        157 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 157, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.908E+01 (EUR 20034)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (8 - 8)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.79995e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       18.9118512443 after        156 iter is B&B base.
+
+Feasible solution      18.9118512443 after        156 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.9118512443 after        156 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 156, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.891E+01 (EUR 19857)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (9 - 9)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.86833e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           111 iter.
+Relaxed solution       18.9252558035 after        155 iter is B&B base.
+
+Feasible solution      18.9252558035 after        155 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.9252558035 after        155 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 2.27374e-013
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 155, 18 (11.6%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.3 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 620 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.015 seconds in simplex solver, in total 0.015 seconds.
+Solution is optimal, objective = 1.893E+01 (EUR 19872)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (10 - 10)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.84145e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           110 iter.
+Relaxed solution       18.9869739834 after        153 iter is B&B base.
+
+Feasible solution      18.9869739834 after        153 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.9869739834 after        153 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 153, 18 (11.8%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 33.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 613 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.899E+01 (EUR 19936)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (11 - 11)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.8194e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       18.9520635158 after        157 iter is B&B base.
+
+Feasible solution      18.9520635158 after        157 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.9520635158 after        157 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 157, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.895E+01 (EUR 19900)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (12 - 12)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.81136e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       18.9654672959 after        156 iter is B&B base.
+
+Feasible solution      18.9654672959 after        156 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.9654672959 after        156 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 156, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.016 seconds in simplex solver, in total 0.016 seconds.
+Solution is optimal, objective = 1.897E+01 (EUR 19914)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (13 - 13)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.8368e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           110 iter.
+Relaxed solution       18.9874394711 after        158 iter is B&B base.
+
+Feasible solution      18.9874394711 after        158 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.9874394711 after        158 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 2.27374e-013
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 158, 18 (11.4%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 35.0 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 620 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.899E+01 (EUR 19937)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (14 - 14)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.83681e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           110 iter.
+Relaxed solution       19.0095015281 after        155 iter is B&B base.
+
+Feasible solution      19.0095015281 after        155 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.0095015281 after        155 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 155, 18 (11.6%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.3 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 613 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.901E+01 (EUR 19960)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (15 - 15)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.81936e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution        19.005679248 after        157 iter is B&B base.
+
+Feasible solution       19.005679248 after        157 iter,         0 nodes (gap 0.0%)
+
+Optimal solution        19.005679248 after        157 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 157, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.901E+01 (EUR 19956)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (16 - 16)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82759e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.0190829818 after        157 iter is B&B base.
+
+Feasible solution      19.0190829818 after        157 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.0190829818 after        157 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 157, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.902E+01 (EUR 19970)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (17 - 17)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82433e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.0324867085 after        157 iter is B&B base.
+
+Feasible solution      19.0324867085 after        157 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.0324867085 after        157 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 157, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.903E+01 (EUR 19984)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (18 - 18)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82741e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.0458903759 after        157 iter is B&B base.
+
+Feasible solution      19.0458903759 after        157 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.0458903759 after        157 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 157, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.905E+01 (EUR 19998)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (19 - 19)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.79706e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.0592944186 after        156 iter is B&B base.
+
+Feasible solution      19.0592944186 after        156 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.0592944186 after        156 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 156, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.906E+01 (EUR 20012)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (20 - 20)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.79328e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.0726984043 after        156 iter is B&B base.
+
+Feasible solution      19.0726984043 after        156 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.0726984043 after        156 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 156, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.907E+01 (EUR 20026)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (21 - 21)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82792e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.0861021364 after        157 iter is B&B base.
+
+Feasible solution      19.0861021364 after        157 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.0861021364 after        157 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 157, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.909E+01 (EUR 20040)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (22 - 22)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.78262e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.2809608752 after        156 iter is B&B base.
+
+Feasible solution      19.2809608752 after        156 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.2809608752 after        156 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 156, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.928E+01 (EUR 20245)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (23 - 23)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.80983e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.1129097885 after        156 iter is B&B base.
+
+Feasible solution      19.1129097885 after        156 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.1129097885 after        156 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 156, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.911E+01 (EUR 20069)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (24 - 24)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.78841e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.3077689036 after        156 iter is B&B base.
+
+Feasible solution      19.3077689036 after        156 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.3077689036 after        156 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 156, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.931E+01 (EUR 20273)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (25 - 25)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.83874e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           110 iter.
+Relaxed solution       19.1581501461 after        158 iter is B&B base.
+
+Feasible solution      19.1581501461 after        158 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.1581501461 after        158 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 2.27374e-013
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 158, 18 (11.4%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 35.0 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 620 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.916E+01 (EUR 20116)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (26 - 26)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.8154e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       19.1482288089 after        157 iter is B&B base.
+
+Feasible solution      19.1482288089 after        157 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       19.1482288089 after        157 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 157, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.8 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.915E+01 (EUR 20106)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (27 - 27)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82375e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       18.7731622086 after        156 iter is B&B base.
+
+Feasible solution      18.7731622086 after        156 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.7731622086 after        156 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 156, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.877E+01 (EUR 19712)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (28 - 28)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82022e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       18.7868539858 after        156 iter is B&B base.
+
+Feasible solution      18.7868539858 after        156 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.7868539858 after        156 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 156, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.016 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.016 seconds.
+Solution is optimal, objective = 1.879E+01 (EUR 19726)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (29 - 29)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.82361e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       18.8005456172 after        156 iter is B&B base.
+
+Feasible solution      18.8005456172 after        156 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.8005456172 after        156 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 156, 18 (11.5%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.5 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.880E+01 (EUR 19741)
+SET-UP: 377 variables (133 processes, 242 slack, 0 thresholds, 0 startup-related) (30 - 30)
+ - scaled by factor 1050
+ - objective function parameter range: -1.223429 ... 2
+ - slack penalties: 2590 (markets), 5180 (storage), and 10360 (other)
+Model name:  '' - run #1
+Objective:   Maximize(R0)
+
+SUBMITTED
+Model size:      244 constraints,     377 variables,          896 non-zeros.
+Sets:                                   0 GUB,                  0 SOS.
+
+[          -Inf < Z < +3.80314e+011 ]
+
+Using DUAL simplex for phase 1 and PRIMAL simplex for phase 2.
+The primal and dual simplex pricing strategy set to 'Devex'.
+
+Found feasibility by dual simplex after           109 iter.
+Relaxed solution       18.9956917366 after        155 iter is B&B base.
+
+Feasible solution      18.9956917366 after        155 iter,         0 nodes (gap 0.0%)
+
+Optimal solution       18.9956917366 after        155 iter,         0 nodes (gap 0.0%).
+Excellent numeric accuracy ||*|| = 0
+
+MEMO: lp_solve version 5.5.2.0 for 64 bit OS, with 64 bit REAL variables.
+In the total iteration count 155, 18 (11.6%) were bound flips.
+There were 4 refactorizations, 0 triggered by time and 1 by density.
+... on average 34.3 major pivots per refactorization.
+The largest [LUSOL v2.2.1.0] fact(B) had 608 NZ entries, 1.0x largest basis.
+The maximum B&B level was 1, 0.5x MIP order, 1 at the optimal solution.
+The constraint matrix inf-norm is 506, with a dynamic range of 5.06e+007.
+Time to load data was 0.000 seconds, presolve used 0.000 seconds,
+... 0.000 seconds in simplex solver, in total 0.000 seconds.
+Solution is optimal, objective = 1.900E+01 (EUR 19945)
+Run ended on: 4/16/2020 15:57:03
+Time elapsed: 0:00:00
+Terminated without errors -- deleting error file for this run.
